@@ -1,0 +1,155 @@
+html {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1300px) {
+  .main-container {
+    margin: 1.5rem 1.5rem 3rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .main-container {
+    margin: 1.5rem 1.5rem 3rem 1.5rem;
+  }
+
+  .print-me {
+    display: none;
+  }
+
+  .banner {
+    display: flex;
+    align-items: center;
+  }
+
+  .address {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .print-me-mobile {
+    display: block;
+    padding: 0.25rem 1rem;
+    outline: none;
+    border: none;
+    background: var(--five);
+    color: var(--white);
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  hr {
+    margin: 1.5rem 0 0 0;
+  }
+
+  .banner {
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .avatar-container {
+    padding: 0;
+    display: flex;
+    width: auto;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .avatar-img-container {
+    box-shadow: none;
+    height: auto;
+    width: auto;
+  }
+
+  .avatar {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .avatar:hover {
+    box-shadow: none;
+  }
+
+  .av-name-container {
+    margin-left: 1rem;
+    align-self: center;
+  }
+
+  .dev-name {
+    margin: -0.75rem 0 0 0;
+    font-size: 1.75rem;
+  }
+
+  .dev-mobile-title {
+    display: block;
+    margin: 0;
+    font-size: 1.15rem;
+    color: var(--five);
+  }
+
+  .dev-title {
+    display: none;
+  }
+
+  .dev-title:hover {
+    animation: rotateTitle 2s 200ms infinite alternate forwards;
+  }
+
+  .address {
+    margin-top: 0.5rem;
+    box-shadow: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  .address:hover {
+    transform: none;
+  }
+
+  @keyframes rotateTitle {
+    from {
+      transform: translateX(-0.55rem) translateY(18rem) rotateZ(0deg);
+    }
+
+    to {
+      transform: translateX(-0.55rem) translateY(18rem) rotateZ(5deg);
+    }
+  }
+
+  .panel-container {
+    flex-direction: column;
+  }
+
+  .right-panel {
+    margin-top: 1rem;
+  }
+
+  .address__line {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .avatar-container {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .address__line {
+    font-size: 1.15rem;
+  }
+
+  ul li {
+    margin-left: -1.45rem;
+  }
+}

@@ -1,0 +1,63 @@
+html {
+  font-size: 12px;
+}
+
+.main-container {
+  margin: 0;
+}
+
+.banner {
+  align-items: flex-start;
+}
+
+.avatar-container {
+  box-shadow: none;
+  height: auto;
+  align-self: flex-end;
+  width: auto;
+}
+
+.avatar-img-container {
+  display: none;
+}
+
+.av-name-container {
+  align-self: flex-end;
+}
+
+.dev-name {
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.dev-title {
+  display: none;
+}
+
+.dev-mobile-title {
+  display: block;
+  margin: 0;
+  font-size: 2rem;
+  color: var(--five);
+}
+
+.address {
+  box-shadow: none;
+  padding: 0;
+}
+
+hr {
+  margin: 0.5rem 0;
+}
+
+ul li {
+  margin-left: -0.875rem;
+}
+
+.print-me-mobile {
+  display: none !important;
+}
+
+.print-me {
+  display: none !important;
+}

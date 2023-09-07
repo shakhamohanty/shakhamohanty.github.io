@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shakha Mohanty | Resume | shakhamohanty"
+    />
+
+    <title>Shakha Mohanty | Resume</title>
+    <link rel="icon" type="image/x-icon" href="assets/avatar.jpeg" />
+
+    <link href="styles/style.css" rel="stylesheet" />
+    <link
+      href="styles/mobile.css"
+      rel="stylesheet"
+      media="screen and (max-width: 1300px)"
+    />
+    <link href="styles/print.css" rel="stylesheet" media="print" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main-container">
+      <!-- Heading -->
+      <section class="banner">
+        <figure class="avatar-container">
+          <div class="avatar-img-container">
+            <img src="assets/avatar.jpeg" alt="Avatar" class="avatar" />
+          </div>
+          <div class="av-name-container">
+            <h1 class="dev-name">Shakha Mohanty</h1>
+            <h2 class="dev-mobile-title">Duck Creek Policy Developer</h2>
+          </div>
+          <figcaption class="dev-title">Duck Creek Policy Developer</figcaption>
+        </figure>
+
+        <div class="address--container">
+          <button id="printMe" class="print-me">Download</button>
+          <address class="address">
+            <a
+              class="address__line"
+              href="https://goo.gl/maps/6sFVbJ1XxrqL9Lhf6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-address-card"></i>
+              Bhubaneswar, India
+            </a>
+            <a
+              class="address__line email-text"
+              href="mailto:shakha1997@gmail.com"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-at" style="color: #c32530"></i>
+              shakha1997@gmail.com
+            </a>
+            <a
+              class="address__line"
+              href="https://linkedin.com/in/shakhamohanty"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-linkedin" style="color: #0a66c2"></i>
+              shakhamohanty
+            </a>
+            <a
+              class="address__line"
+              href="https://github.com/shakhamohanty"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github-square"></i> shakhamohanty
+            </a>
+          </address>
+        </div>
+      </section>
+
+      <hr />
+      <!-- Experience and Skills -->
+      <section class="panel-container">
+        <!-- LEFT PANEL -->
+        <section class="left-panel">
+          <!-- Experience -->
+          <section>
+            <h1>EXPERIENCE</h1>
+            <div id="experience"></div>
+          </section>
+
+          <!-- Education -->
+          <section>
+            <h1>EDUCATION</h1>
+            <div id="education"></div>
+          </section>
+        </section>
+
+        <!-- RIGHT PANEL -->
+        <section class="right-panel">
+          <section>
+            <h1>SKILLS</h1>
+            <div id="workedOnRecently"></div>
+
+            <!-- <h2 style="font-size: 1rem; margin-top: 2rem">
+              Familiar with the following:
+            </h2>
+            <div id="familiarWith"></div> -->
+          </section>
+
+          <section>
+            <h1>LANGUAGES</h1>
+            <p>English, Odia, Hindi</p>
+          </section>
+
+          <button id="print-mobile" class="print-me-mobile">Download</button>
+        </section>
+      </section>
+    </main>
+    <script type="module" src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/276296e4e9.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </body>
+</html>
