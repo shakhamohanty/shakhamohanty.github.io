@@ -1,0 +1,30 @@
+.designation-node {
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 1.1rem;
+  left: -1.6rem;
+  margin-bottom: -0.8rem;
+}
+
+.designation-path {
+  position: relative;
+}
+
+.designation-path::before {
+  content: '';
+  position: absolute;
+  left: calc(-1.35rem - 1px);
+  top: 1.5rem;
+  height: calc(100% - 1.2rem);
+  width: 2px;
+  background-color: rgba(140, 140, 140, 0.2);
+}
+
+.designation-text {
+  font-weight: 400;
+  font-size: 1.05rem;
+}

@@ -28,18 +28,49 @@ function handlePrint(element) {
 
 function renderExperience() {
   const template = experience.reduce((acc, exp) => {
+    const { isMultiPosition } = exp;
     acc += `
-    <article>
-    <h2>
-      <span class="org-name">${exp.organization},</span>
-      <span class="exp-sub__text"> ${exp.location} — ${exp.designation}</span>
-    </h2>
-    <p class="from-to">${exp.workedFrom} - ${exp.workedTo}</p>
-
-    <ul> 
-      ${exp.didWhat.reduce((liAcc, work) => (liAcc += `<li>${work}</li>`), '')}
-    </ul>
-  </article>
+      <article>
+      <h2>
+        <span class="org-name">${exp.organization}${isMultiPosition ? '' : ','}</span>
+        ${isMultiPosition ? '' : `<span class="exp-sub__text"> ${exp.location} — ${exp.designation}</span>`}
+      </h2>
+      ${
+        isMultiPosition
+          ? `
+            ${
+              exp.positions.length === 1 
+                ? `<div style="margin-top: -1.25rem">`
+                : `<div style="margin-left: 2rem; margin-top: -1.75rem">`
+            }
+            
+              ${
+                exp.positions.map((p, index) => {
+                  return `
+                    <div>
+                      ${
+                        exp.positions.length === 1 
+                          ? ''
+                          : `<span class="designation-node"></span>`
+                      }
+                      <div class="${index === exp.positions.length - 1 ? '' : 'designation-path'}">
+                        <h2 class="designation-text" style="margin-bottom: 4px">${p.designation}</h2>
+                        <p style="opacity: 0.6; margin: -0.25rem 0">${p.duration}</p>
+                        <p style="opacity: 0.6; margin: -0.25rem 0">${p.location}</p>
+                      </div>
+                    </div>
+                  `
+                }).join('')
+              }
+            </div>
+          `
+          : `<p class="from-to">${exp.workedFrom} - ${exp.workedTo}</p>`
+      }
+      
+      <ul> 
+        ${exp.didWhat.reduce((liAcc, work) => (liAcc += `<li>${work}</li>`), '')}
+      </ul>
+    </article>
   `;
 
     return acc;
