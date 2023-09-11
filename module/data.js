@@ -13,7 +13,7 @@ const experience = [
     }],
 
     didWhat: [
-      `Worked on Duck Creek Platform 8.0.4`,
+      `Worked on Duck Creek Platform 7.2`,
       `Worked on requirement analysis and implementation for LOBs`,
       `Forms Development (Static and Dynamic)`,
       `Gained hands on experience on Express 3.0 and View Models and Page Builder.`,
@@ -78,7 +78,7 @@ const workedOnRecently = [
   {
     category: `Tools & Technologies`,
     value: [
-      `Duck Creek Platform [6.3, 7.2, 8.0.4] (Example Author/Express [2.0, 3.0]/Server)`,
+      `Duck Creek Platform [6.3, 7.2] (Example Author/Express [2.0, 3.0]/Server)`,
       `Forms`,
       `Example Util`,
       `Trace Monitor`,
