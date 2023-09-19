@@ -51,7 +51,7 @@ const experience = [
     didWhat: [
       `Worked on Duck Creek platform v6.3  (Example Author, Server, Express 2.0)`,
       `Worked in “Chubb Benchmarq Project" (BMQ) for Commercial Property and General Liability Line of Businesses`,
-      `Worked extensively on complex Forms Development (static and dynamic), Page development, Referral and Debugging, Manuscript versioning,  Refinement of stories etc.`,
+      `Worked extensively on complex Forms Development (static and dynamic) for Property, General Liability and Interline forms, Page development, Referral and Debugging, Manuscript versioning,  Refinement of stories etc.`,
       `Conducted thorough code reviews of team members keeping in mind the stability of the system and following the Duck Creek standard.`,
       `Trained and mentored freshers and junior developers.`,
       `Demoed the policy workflow and also the stories I had worked on.`,
