@@ -1,10 +1,12 @@
 import {
+  experienceSummary,
   experience,
   edData,
   workedOnRecently,
   familiarWith,
 } from './module/data.js';
 
+const expSummaryElm = document.getElementById('exp-summary');
 const expDiv = document.getElementById('experience');
 const edDiv = document.getElementById('education');
 const workedRecentlyDiv = document.getElementById('workedOnRecently');
@@ -24,6 +26,14 @@ function handlePrint(element) {
   element.style.display = 'none';
   window.print();
   element.style.display = 'block';
+}
+
+function renderExpSummary() {
+  if (experienceSummary.length > 0) {
+    expSummaryElm.innerText = experienceSummary;
+  } else {
+    expSummaryElm.style.display = 'none';
+  }
 }
 
 function renderExperience() {
@@ -67,7 +77,7 @@ function renderExperience() {
           : `<p class="from-to">${exp.workedFrom} - ${exp.workedTo}</p>`
       }
       
-      <ul> 
+      <ul style="margin-top: 2rem;"> 
         ${exp.didWhat.reduce((liAcc, work) => (liAcc += `<li>${work}</li>`), '')}
       </ul>
     </article>
@@ -128,6 +138,7 @@ function renderSkills() {
 }
 
 (function main() {
+  renderExpSummary();
   renderExperience();
   renderEducation();
   renderSkills();

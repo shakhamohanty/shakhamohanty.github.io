@@ -204,6 +204,8 @@ p {
 
 .org-name {
   font-weight: 500;
+  display: inline-block;
+  margin-bottom: 1rem;
 }
 
 .exp-sub__text {

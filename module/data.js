@@ -1,3 +1,5 @@
+const experienceSummary = `Duck Creek Policy developer, with 4 years of overall and relevant Duck Creek experience with experience in forms, pages, underwriting, transact etc. Worked on Duck Creek 6.3 and 7.2 versions for Commercial Lines, Property and General Liability lines of businesses.`;
+
 const experience = [
   {
     organization: 'Duck Creek Technologies',
@@ -24,7 +26,7 @@ const experience = [
     ],
   },
   {
-    organization: 'Capgemini',
+    organization: 'Capgemini India',
     location: 'Bhubaneswar',
     designation: 'Associate Consultant',
     workedFrom: 'SEPT 2021',
@@ -113,4 +115,4 @@ const familiarWith = [
   },
 ];
 
-export { experience, edData, workedOnRecently, familiarWith };
+export { experienceSummary, experience, edData, workedOnRecently, familiarWith };
