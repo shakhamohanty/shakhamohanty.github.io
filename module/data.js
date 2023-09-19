@@ -14,11 +14,12 @@ const experience = [
 
     didWhat: [
       `Worked on Duck Creek Platform 7.2`,
-      `Worked on requirement analysis and implementation for LOBs`,
-      `Forms Development (Static and Dynamic)`,
-      `Gained hands on experience on Express 3.0 and View Models and Page Builder.`,
+      `Worked on “Core Specialty” Project for Commercial Property Line of Businesses`,
+      `Gained hands-on experience on Express 3.0 and View Models and Page Builder.`,
+      `Complex forms Development (static and Dynamic)`,
+      `Gained hands-on experience on TransAct.`,
       `Developed Unit testing documentations.`,
-      `Worked with developers to identify and resolve bugs.`,
+      `Worked with developers to identify and resolve bugs`,
       `Maintaining and adhering to DCT coding standards and best practices`,
     ],
   },
@@ -48,13 +49,17 @@ const experience = [
     ],
 
     didWhat: [
-      `Worked on Duck Creek platform v6.3 and v7.2 (Example Author, Server, Express 2.0)`,
-      `Worked in Chubb account for Commercial Property and General Liability Line of Businesses`,
-      `Page development, Forms Development (static and dynamic), Referral and Debugging, Refinement of stories etc.`,
-      `Conducted thorough code reviews of team members keeping in mind the stability of the system and following the Duck Creek standard before deploying the code to the testing environment.`,
-      `Managed multiple deadlines and always targeted to achieve targets and delivering on or before time with accuracy.`,
+      `Worked on Duck Creek platform v6.3  (Example Author, Server, Express 2.0)`,
+      `Worked in “Chubb Benchmarq Project" (BMQ) for Commercial Property and General Liability Line of Businesses`,
+      `Worked extensively on complex Forms Development (static and dynamic), Page development, Referral and Debugging, Manuscript versioning,  Refinement of stories etc.`,
+      `Conducted thorough code reviews of team members keeping in mind the stability of the system and following the Duck Creek standard.`,
       `Trained and mentored freshers and junior developers.`,
-      `Demoed the policy workflow and also the stories I had worked.`,
+      `Demoed the policy workflow and also the stories I had worked on.`,
+      `Worked on requirement analysis and implementation for all LOBs`,
+      `Maintaining and adhering to DCT coding standards and best practices`,
+      `Prepared and submitted reports and other documentation to assist development team members.`,
+      `Worked closely with peers to understand the requirements and accordingly identify issues and provide suitable resolutions.`,
+      
     ],
   }
 ];
@@ -96,8 +101,7 @@ const workedOnRecently = [
     value: [
       `[Nov 2019]: Microsoft Certified in 70-483 C#`,
       `[Oct 2019]: Duck Creek Policy Bootcamp Training`,
-      `[Feb 2018]: Certification training in C Programming`,
-      `[May 2017]: Training in Power transmission and Distribution in OPTCL, Chandaka, Bhubaneswar`,
+      `[May 2017]: Training in Power Transmission and Distribution in OPTCL, Chandaka, Bhubaneswar`,
     ],
   },
 ];
